@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reizinho do Pão — Padaria</title>
+  <meta name="description" content="Pães quentinhos, bolos artesanais e salgados feitos com carinho todos os dias. Venha nos visitar!" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">
+      <img src="assets/logo.png" alt="Reizinho do Pão" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#paes">Pães</a></li>
+      <li><a href="#bolos">Bolos, Doces & Salgados</a></li>
+      <li><a href="#outros">Outros</a></li>
+      <li><a href="#endereco">Endereço</a></li>
+      <li><a href="#contato" class="nav-cta">Faça seu pedido</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#paes">Pães</a>
+    <a href="#bolos">Bolos, Doces & Salgados</a>
+    <a href="#outros">Outros</a>
+    <a href="#endereco">Endereço</a>
+    <a href="#contato">Contato</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="assets/storefront.png" alt="Pães frescos saindo do forno" />
+    </div>
+    <div class="hero-content">
+      <h1>Reizinho do Pão</h1>
+      <p>Pães quentinhos, bolos artesanais e o afeto que só uma verdadeira padaria de bairro pode oferecer.</p>
+      <a href="#paes" class="btn-primary">
+        Conheça nossas delícias
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- PÃES GALLERY -->
+  <section class="section" id="paes">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Nossos Pães</h2>
+        <div class="section-divider"></div>
+        <p>Feitos diariamente com ingredientes selecionados para garantir a casca perfeita e o miolo macio.</p>
+      </div>
+      <div class="gallery-grid cols-6 stagger">
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pao-massa-grossa.jpeg" alt="Pão Massa Grossa" /><div class="overlay"></div></div>
+          <h3>Pão Massa Grossa <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pao-massa-fina.jpeg" alt="Pão Massa Fina" /><div class="overlay"></div></div>
+          <h3>Pão Massa Fina <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pao-queijo.jpeg" alt="Pão de Queijo" /><div class="overlay"></div></div>
+          <h3>Pão de Queijo <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pao-doce.jpeg" alt="Pão Doce" /><div class="overlay"></div></div>
+          <h3>Pão Doce <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pao-amanteigado.png" alt="Pão Amanteigado" /><div class="overlay"></div></div>
+          <h3>Pão Amanteigado <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/brotinho.png" alt="Brotinho" /><div class="overlay"></div></div>
+          <h3>Brotinho <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pao-milho.jpeg" alt="Pão de Milho" /><div class="overlay"></div></div>
+          <h3>Pão de Milho <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pao-leite.jpeg" alt="Pão de Leite" /><div class="overlay"></div></div>
+          <h3>Pão de Leite <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pao-forma.jpeg" alt="Pão de Forma" /><div class="overlay"></div></div>
+          <h3>Pão de Forma <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/hamburguer.jpeg" alt="Pão de Hambúrguer" /><div class="overlay"></div></div>
+          <h3>Pão de Hambúrguer <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pao-cebola.jpeg" alt="Pão de Cebola" /><div class="overlay"></div></div>
+          <h3>Pão de Cebola <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pao-chocolate.jpeg" alt="Pão de Chocolate" /><div class="overlay"></div></div>
+          <h3>Pão de Chocolate <span class="preco">R$&nbsp;0,50</span></h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOLOS, DOCES & SALGADOS -->
+  <section class="section section-alt" id="bolos">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Bolos, Doces &amp; Salgados</h2>
+        <div class="section-divider"></div>
+        <p>Para a sua festa, para o lanche da tarde ou simplesmente para adoçar o dia.</p>
+      </div>
+      <div class="gallery-grid cols-5 stagger">
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/bolo-cenoura.jpeg" alt="Bolo de Cenoura" /><div class="overlay"></div></div>
+          <h3>Bolo de Cenoura <span class="preco">R$&nbsp;5,00</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/bolo-chocolate.jpeg" alt="Bolo de Chocolate" /><div class="overlay"></div></div>
+          <h3>Bolo de Chocolate <span class="preco">R$&nbsp;5,00</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/bolo-prestigio.jpeg" alt="Bolo Prestígio" /><div class="overlay"></div></div>
+          <h3>Bolo Prestígio <span class="preco">R$&nbsp;6,00</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/sonho.png" alt="Sonho" /><div class="overlay"></div></div>
+          <h3>Sonho <span class="preco">R$&nbsp;1,00</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/salgados.png" alt="Salgados" /><div class="overlay"></div></div>
+          <h3>Salgados <span class="preco">R$&nbsp;6,00</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/pudim.jpeg" alt="Pudim" /><div class="overlay"></div></div>
+          <h3>Pudim <span class="preco">R$&nbsp;5,00</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/bola.jpeg" alt="Bola" /><div class="overlay"></div></div>
+          <h3>Bola <span class="preco">R$&nbsp;5,00</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/bolo-milho.jpeg" alt="Bolo de Milho" /><div class="overlay"></div></div>
+          <h3>Bolo de Milho <span class="preco">R$&nbsp;5,00</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/bolo-caçarola.jpeg" alt="Caçarola" /><div class="overlay"></div></div>
+          <h3>Caçarola <span class="preco">R$&nbsp;5,00</span></h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/kikao.jpeg" alt="Kikão" /><div class="overlay"></div></div>
+          <h3>Kikão <span class="preco">R$&nbsp;5,00</span></h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUTROS -->
+  <section class="section" id="outros">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Outros</h2>
+        <div class="section-divider"></div>
+        <p>Outros produtos disponíveis na nossa padaria.</p>
+      </div>
+      <div class="gallery-grid cols-6 stagger">
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/manteiga.jpeg" alt="Manteiga" /><div class="overlay"></div></div>
+          <h3>Manteiga</h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/ovos.jpeg" alt="Ovos" /><div class="overlay"></div></div>
+          <h3>Ovos</h3>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-item-img"><img src="assets/cafe.jpeg" alt="Café" /><div class="overlay"></div></div>
+          <h3>Café</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENDEREÇO -->
+  <section class="section" id="endereco">
+    <div class="container">
+      <div class="address-grid">
+        <div class="address-img slide-left">
+          <img src="assets/storefront.png" alt="Fachada da Padaria Reizinho do Pão" />
+        </div>
+        <div class="address-info slide-right">
+          <div>
+            <h2>Onde nos encontrar</h2>
+          </div>
+          <div class="info-block">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+            </div>
+            <div>
+              <h4>Endereço</h4>
+              <p>Rua 03, Aurélio Andrade, N° 168<br />Barreirinha, AM</p>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+            </div>
+            <div>
+              <h4>Horário de Funcionamento</h4>
+              <p>Segunda a Domingo: Das 05:40 às 12:00 <br />À tarde das 13:40 às 19:00</p>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>
+            </div>
+            <div>
+              <h4>Contato</h4>
+              <p>+55 92 9267-8911</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contact-section" id="contato">
+    <div class="contact-bg"></div>
+    <div class="contact-content fade-up">
+      <h2>Faça seu pedido</h2>
+      <p>Vai dar uma festa ou quer garantir o pão quentinho da família? Entre em contato e preparemos tudo com muito carinho.</p>
+      <div class="contact-btns">
+        <a href="https://wa.me/5592992678911" class="btn-whatsapp" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+      <p class="contact-phone">Ou ligue para: +55 92 9267-8911</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="assets/logo.png" alt="Reizinho do Pão" />
+      </div>
+      <div class="footer-text">
+        <p class="name">Reizinho do Pão</p>
+        <p class="tagline">A realeza do sabor brasileiro desde sempre.</p>
+      </div>
+      <div class="footer-phone">
+        <a href="https://wa.me/5592992678911" target="_blank" rel="noopener">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>
+          +55 92 9267-8911
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Reizinho do Pão. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
